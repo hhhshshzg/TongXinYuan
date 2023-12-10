@@ -24,7 +24,7 @@ const router = createRouter({
       children: [
         {
           // 设置为空，表示默认显示该页面
-          path: '',
+          path: 'myAbout',
           name: '我的主页',
           component: () => import('../views/PersonalHomepage/views/myAbout.vue')
         },
@@ -64,9 +64,9 @@ const router = createRouter({
           component: () => import('../views/PersonalHomepage/views/myPost.vue')
         },
         {
-          path: 'myAbout',
+          path: 'aboutMe',
           name: '关于我们',
-          component: () => import('../views/PersonalHomepage/views/myAbout.vue')
+          component: () => import('../views/PersonalHomepage/views/aboutMe.vue')
         },
         {
           path: 'myFeedback',
