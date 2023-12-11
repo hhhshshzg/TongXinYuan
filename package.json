@@ -1,0 +1,26 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "element-plus": "^2.4.3",
+    "gsap": "^3.12.3",
+    "jquery": "^3.7.1",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5",
+    "vuex": "next"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.29",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "sass": "^1.69.5",
+    "vite": "^4.4.11"
+  }
+}
