@@ -5,7 +5,7 @@
                 <el-icon>
                     <House />
                 </el-icon>
-                <router-link class="link" to="/PersonalHomepage/myAbout">我的主页</router-link>
+                <router-link class="link" to="/PersonalHomepage">我的主页</router-link>
             </el-menu-item>
             <el-menu-item index="2">
                 <el-icon>
