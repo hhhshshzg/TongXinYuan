@@ -180,7 +180,8 @@ onUnmounted(() => {
 }
 
 .member-name {
-    color: rgb(176, 93, 93);
+    color: rgb(189, 249, 230);
+    font-size: 1.0rem;
 }
 
 
