@@ -15,7 +15,7 @@ const handleSelect = (key: string, keyPath: string[]) => {
     <!-- 头选项 -->
     <div class="flex-grow" />
     <el-menu-item index="1"> <router-link class="link" to="/">首页</router-link> </el-menu-item>
-    <el-menu-item index="2"> <router-link class="link" to="/hot">热点</router-link> </el-menu-item>
+    <el-menu-item index="2"> <router-link class="link" to="/login">热点</router-link> </el-menu-item>
     <el-menu-item index="3"> <router-link class="link" to="/">动漫</router-link> </el-menu-item>
     <el-menu-item index="4"> <router-link class="link" to="/">问答</router-link> </el-menu-item>
     <!-- 登录注册 -->

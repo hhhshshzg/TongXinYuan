@@ -9,7 +9,7 @@
           <router-link to="/home">首页</router-link>
         </li>
         <li>
-          <router-link to="/forum">论坛</router-link>
+          <router-link to="/login">论坛</router-link>
         </li>
         <li>
           <router-link to="/anime">动漫</router-link>
